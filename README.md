@@ -1,5 +1,3 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-<br>
 
 
 # Punto de Ventra - API
@@ -7,7 +5,7 @@
 Llevar la contabilidad de un negocio restuarantero día a día.
 
 
-## Autores
+## Autore
 
 - [@Tonho1994](https://github.com/Tonho1994)
 - [@Dadomon](https://github.com/Dadomon)
@@ -54,3 +52,14 @@ Start the server
 ```
 
 
+## API Reference
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
